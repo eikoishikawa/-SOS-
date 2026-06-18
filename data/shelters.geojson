@@ -4,25 +4,97 @@
     {
       "type": "Feature",
       "properties": {
-        "name": "代々木上原駅周辺避難所",
-        "type": "避難所",
-        "memo": "サンプル避難所データです"
+        "name": "流山小学校",
+        "type": "指定避難所",
+        "memo": "流山市の指定避難所サンプルです。正式運用時は正確な座標を確認してください。"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [139.6790, 35.6690]
+        "coordinates": [139.9024, 35.8546]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "name": "給水支援ポイント",
-        "type": "給水所",
-        "memo": "水の配布場所として表示する例です"
+        "name": "南流山小学校",
+        "type": "指定避難所",
+        "memo": "南流山エリアの指定避難所サンプルです。"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [139.6815, 35.6710]
+        "coordinates": [139.9020, 35.8380]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "おおたかの森小・中学校",
+        "type": "指定避難所",
+        "memo": "おおたかの森エリアの指定避難所サンプルです。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.9250, 35.8730]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "小山小学校",
+        "type": "指定避難所",
+        "memo": "流山おおたかの森駅周辺エリアの指定避難所サンプルです。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.9230, 35.8755]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "江戸川台小学校",
+        "type": "指定避難所",
+        "memo": "江戸川台エリアの指定避難所サンプルです。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.9120, 35.8975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "東深井小学校",
+        "type": "指定避難所",
+        "memo": "東深井エリアの指定避難所サンプルです。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.9180, 35.9040]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "向小金小学校",
+        "type": "指定避難所",
+        "memo": "向小金エリアの指定避難所サンプルです。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.9500, 35.8350]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "キッコーマン アリーナ",
+        "type": "指定避難所",
+        "memo": "流山市の避難所サンプルです。"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.9140, 35.8580]
       }
     }
   ]
