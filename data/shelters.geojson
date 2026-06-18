@@ -1,1 +1,29 @@
-
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "代々木上原駅周辺避難所",
+        "type": "避難所",
+        "memo": "サンプル避難所データです"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.6790, 35.6690]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "給水支援ポイント",
+        "type": "給水所",
+        "memo": "水の配布場所として表示する例です"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.6815, 35.6710]
+      }
+    }
+  ]
+}
