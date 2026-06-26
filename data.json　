@@ -28,15 +28,15 @@
     "lng": 139.8999,
     "description": "この周辺で停電の情報があります",
     "status": "確認中"
+  },
+  {
+    "id": "004",
+    "type": "SOS",
+    "category": "電源",
+    "urgency": "高",
+    "lat": 35.8601,
+    "lng": 139.9072,
+    "description": "医療機器の充電が必要です",
+    "status": "未対応"
   }
 ]
-{
-  "id": "004",
-  "type": "SOS",
-  "category": "電源",
-  "urgency": "高",
-  "lat": 35.8601,
-  "lng": 139.9072,
-  "description": "医療機器の充電が必要です",
-  "status": "未対応"
-}
