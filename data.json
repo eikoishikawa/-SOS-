@@ -1,0 +1,32 @@
+[
+  {
+    "id": "001",
+    "type": "SOS",
+    "category": "水",
+    "urgency": "高",
+    "lat": 35.8563,
+    "lng": 139.9023,
+    "description": "飲料水が不足しています",
+    "status": "未対応"
+  },
+  {
+    "id": "002",
+    "type": "支援できます",
+    "category": "食料",
+    "urgency": "低",
+    "lat": 35.8582,
+    "lng": 139.9051,
+    "description": "レトルト食品を分けられます",
+    "status": "有効"
+  },
+  {
+    "id": "003",
+    "type": "情報共有",
+    "category": "停電",
+    "urgency": "中",
+    "lat": 35.8548,
+    "lng": 139.8999,
+    "description": "この周辺で停電の情報があります",
+    "status": "確認中"
+  }
+]
