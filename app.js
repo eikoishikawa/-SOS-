@@ -37,3 +37,17 @@ fetch("data.json")
   .catch(error => {
     console.error("データの読み込みに失敗しました:", error);
   });
+map.on("click", function(e) {
+  const lat = e.latlng.lat.toFixed(6);
+  const lng = e.latlng.lng.toFixed(6);
+
+  L.popup()
+    .setLatLng(e.latlng)
+    .setContent(`
+      <strong>この場所にピンを立てる場合</strong><br>
+      lat: ${lat}<br>
+      lng: ${lng}<br><br>
+      この数値を data.json に入れてください。
+    `)
+    .openOn(map);
+});
