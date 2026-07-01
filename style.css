@@ -1,4 +1,42 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  background: #f7f7f7;
+}
+
+h1 {
+  margin-bottom: 5px;
+}
+
+.panel {
+  background: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+label {
+  display: block;
+  margin: 10px 0;
+}
+
+input,
+select,
+button {
+  padding: 8px;
+  margin-top: 4px;
+  width: 100%;
+  max-width: 400px;
+}
+
+button {
+  cursor: pointer;
+  font-weight: bold;
+}
+
 #map {
   height: 600px;
   width: 100%;
+  border: 1px solid #ccc;
 }
