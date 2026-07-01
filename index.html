@@ -10,7 +10,87 @@
 
 <body>
   <h1>SOSピン打ちマップ</h1>
-  <p>災害時の在宅避難者を支えるためのマップです。</p>
+  <p>災害時の在宅避難者のニーズを、テーマ別・エリア別に可視化するマップです。</p>
+
+  <div class="panel">
+    <h2>表示設定</h2>
+
+    <label>
+      表示モード：
+      <select id="mapMode">
+        <option value="pins">個別ピン</option>
+        <option value="area">エリア集計</option>
+        <option value="heat">ヒートマップ風</option>
+      </select>
+    </label>
+
+    <label>
+      テーマ：
+      <select id="themeFilter">
+        <option value="all">すべて</option>
+        <option value="水">飲料水マップ</option>
+        <option value="電力">電力マップ</option>
+        <option value="医療品">医療品マップ</option>
+        <option value="食料">食料マップ</option>
+        <option value="ライフライン">ライフラインマップ</option>
+        <option value="停電">停電情報マップ</option>
+      </select>
+    </label>
+  </div>
+
+  <div class="panel">
+    <h2>テスト入力</h2>
+    <p>地図上をクリックすると、緯度・経度が自動で入ります。</p>
+
+    <form id="reportForm">
+      <label>
+        種類：
+        <select id="type">
+          <option value="SOS">SOS</option>
+          <option value="支援できます">支援できます</option>
+          <option value="情報共有">情報共有</option>
+        </select>
+      </label>
+
+      <label>
+        カテゴリ：
+        <select id="category">
+          <option value="水">水</option>
+          <option value="電力">電力</option>
+          <option value="医療品">医療品</option>
+          <option value="食料">食料</option>
+          <option value="ライフライン">ライフライン</option>
+          <option value="停電">停電</option>
+        </select>
+      </label>
+
+      <label>
+        緊急度：
+        <select id="urgency">
+          <option value="高">高</option>
+          <option value="中">中</option>
+          <option value="低">低</option>
+        </select>
+      </label>
+
+      <label>
+        内容：
+        <input type="text" id="description" placeholder="例：医療品が足りません">
+      </label>
+
+      <label>
+        緯度：
+        <input type="text" id="lat" readonly>
+      </label>
+
+      <label>
+        経度：
+        <input type="text" id="lng" readonly>
+      </label>
+
+      <button type="submit">この内容でテスト登録</button>
+    </form>
+  </div>
 
   <div id="map"></div>
 
